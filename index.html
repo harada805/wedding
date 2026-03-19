@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Pernikahan Mico & Meita — 25 Maret 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════════ LOADING SCREEN ══════════════════ -->
+<div id="loading-screen">
+  <div class="loading-content">
+    <div class="loading-flower">🌸</div>
+    <div class="loading-text">The Wedding of</div>
+    <div class="loading-names">Mico & Meita</div>
+    <div class="loading-tagline">Sabtu, 07 Februari 2026 &nbsp;•&nbsp; Rabu, 25 Maret 2026</div>
+    <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+  </div>
+</div>
+
+<!-- ══════════════════ COVER / HERO ══════════════════ -->
+<section id="cover" class="section">
+  <div class="cover-bg"></div>
+  <div class="petals-container" id="petals"></div>
+
+  <div class="cover-content">
+    <div class="bismillah animate-fadeup delay-1">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+    <div class="wedding-of animate-fadeup delay-2">The Wedding of</div>
+
+    <div class="couple-names animate-fadeup delay-3">
+      <span class="name-groom">Mico</span>
+      <span class="ampersand">&</span>
+      <span class="name-bride">Meita</span>
+    </div>
+
+    <div class="cover-gold-bar animate-fadeup delay-4"></div>
+
+    <div class="wedding-date animate-fadeup delay-4">
+      <span>07 Februari 2026</span>
+      <span class="dot-sep">✦</span>
+      <span>25 Maret 2026</span>
+    </div>
+
+    <button class="open-btn animate-fadeup delay-5" id="openInviteBtn">
+      <span>Buka Undangan</span>
+      <svg viewBox="0 0 24 24"><path d="M12 16l-6-6h12z"/></svg>
+    </button>
+  </div>
+
+  <div class="scroll-hint animate-fadeup delay-6">
+    <span>scroll</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ══════════════════ MAIN CONTENT ══════════════════ -->
+<div id="main-content" class="hidden">
+
+  <!-- ── QUOTE ── -->
+  <section class="section quote-section" data-animate>
+    <div class="quote-decor-left">✦</div>
+    <div class="quote-decor-right">✦</div>
+    <div class="quote-content">
+      <div class="quote-frame">
+        <p class="quote-ayat">"وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً"</p>
+        <p class="quote-translation">Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang.</p>
+        <p class="quote-source">— QS. Ar-Rum: 21 —</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── COUPLE ── -->
+  <section class="section couple-section" data-animate>
+    <div class="section-header">
+      <div class="section-ornament">✦ ——— ✦</div>
+      <h2>Mempelai Bahagia</h2>
+      <div class="section-ornament">✦ ——— ✦</div>
+    </div>
+
+    <div class="couple-grid">
+      <!-- Pengantin Pria -->
+      <div class="person-card groom-card" data-animate-left>
+        <div class="person-photo-wrap">
+          <div class="person-photo">
+            <img src="photo-groom.jpg" alt="Mico" onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>🤵</span></div>'">
+          </div>
+          <div class="photo-ring"></div>
+          <div class="photo-ring2"></div>
+        </div>
+        <div class="person-label">Pengantin Pria</div>
+        <h3 class="person-name">Mico Mahendra Hadinata, S.Pd</h3>
+        <p class="person-parents">Putra dari</p>
+        <p class="person-father">Bapak Sri Djoko</p>
+        <p class="person-amp">&amp;</p>
+        <p class="person-mother">Ibu May Lestari</p>
+        <p class="person-address">📍 Gendungan, RT 02/RW 07<br>Dalangan, Tawangsari, Sukoharjo</p>
+      </div>
+
+      <!-- Hati Tengah -->
+      <div class="heart-divider" data-animate>
+        <div class="heart-pulse">❤</div>
+        <div class="inf-line"></div>
+      </div>
+
+      <!-- Pengantin Wanita -->
+      <div class="person-card bride-card" data-animate-right>
+        <div class="person-photo-wrap">
+          <div class="person-photo">
+            <img src="photo-bride.jpg" alt="Meita" onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>👰</span></div>'">
+          </div>
+          <div class="photo-ring"></div>
+          <div class="photo-ring2"></div>
+        </div>
+        <div class="person-label">Pengantin Wanita</div>
+        <h3 class="person-name">Meita Indah Syahputri, S.Pd</h3>
+        <p class="person-parents">Putri dari</p>
+        <p class="person-father">Bapak Sutriyanto</p>
+        <p class="person-amp">&amp;</p>
+        <p class="person-mother">Ibu Nur Aini, A.Md.Keb</p>
+        <p class="person-address">📍 Dukuh Banaran, RT 09A/RW 00<br>Banaran, Kalijambe, Sragen</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── COUNTDOWN ── -->
+  <section class="section countdown-section" data-animate>
+    <div class="countdown-bg"></div>
+    <div class="countdown-content">
+      <div class="section-header light">
+        <div class="section-ornament">✦ ——— ✦</div>
+        <h2>Hitung Mundur</h2>
+        <div class="section-ornament">✦ ——— ✦</div>
+      </div>
+
+      <!-- Label dinamis (diisi oleh JS) -->
+      <div id="countdown-main-label" style="font-family:'Playfair Display',serif;font-size:1.3rem;color:#e8cc7a;margin-bottom:.3rem;">
+        🎊 Menuju Resepsi Pernikahan
+      </div>
+      <div id="countdown-sub-label" style="font-family:'Cormorant Garamond',serif;font-style:italic;color:#c9a454;opacity:.7;font-size:.95rem;margin-bottom:2.5rem;">
+        Rabu, 25 Maret 2026 — 10.00 WIB
+      </div>
+
+      <!-- Countdown boxes -->
+      <div class="countdown-grid" id="countdown">
+        <div class="count-box">
+          <span class="count-num" id="cd-days">00</span>
+          <div class="count-label">Hari</div>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-box">
+          <span class="count-num" id="cd-hours">00</span>
+          <div class="count-label">Jam</div>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-box">
+          <span class="count-num" id="cd-mins">00</span>
+          <div class="count-label">Menit</div>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-box">
+          <span class="count-num" id="cd-secs">00</span>
+          <div class="count-label">Detik</div>
+        </div>
+      </div>
+
+      <!-- Progress bar menuju resepsi -->
+      <div class="progress-wrap" data-animate>
+        <div class="progress-label">
+          <span>⏳ Progress Menuju Resepsi</span>
+          <span id="resepsi-progress-pct">0%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-bar-inner" id="resepsi-progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ACARA ── -->
+  <section class="section event-section" data-animate>
+    <div class="section-header">
+      <div class="section-ornament">✦ ——— ✦</div>
+      <h2>Rangkaian Acara</h2>
+      <div class="section-ornament">✦ ——— ✦</div>
+    </div>
+
+    <div class="events-grid">
+      <!-- Akad -->
+      <div class="event-card akad-card" data-animate-left>
+        <div class="event-icon">🕌</div>
+        <div class="event-tag">Akad Nikah</div>
+        <h3 class="event-title">Ijab Kabul</h3>
+        <div class="event-detail">
+          <div class="event-row"><span class="ev-icon">📅</span><span>Sabtu, 07 Februari 2026</span></div>
+          <div class="event-row"><span class="ev-icon">🕗</span><span>Pukul 08.00 WIB</span></div>
+          <div class="event-row"><span class="ev-icon">📍</span>
+            <span>Masjid Raya Syeikh Zayed<br>Surakarta</span>
+          </div>
+        </div>
+        <a href="https://maps.google.com/?q=Masjid+Raya+Sheikh+Zayed+Solo" target="_blank" class="maps-btn">
+          <span>
+            <svg viewBox="0 0 24 24" style="width:14px;height:14px;vertical-align:middle;fill:currentColor;margin-right:4px"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Lihat Lokasi
+          </span>
+        </a>
+      </div>
+
+      <!-- Resepsi — highlighted -->
+      <div class="event-card resepsi-card" data-animate-right>
+        <div class="resepsi-highlight">✨ Utama</div>
+        <div class="event-icon">🎊</div>
+        <div class="event-tag">Resepsi Pernikahan</div>
+        <h3 class="event-title">Pesta Pernikahan</h3>
+        <div class="event-detail">
+          <div class="event-row"><span class="ev-icon">📅</span><span><strong>Rabu, 25 Maret 2026</strong></span></div>
+          <div class="event-row"><span class="ev-icon">🕙</span><span>Pukul 10.00 WIB</span></div>
+          <div class="event-row"><span class="ev-icon">📍</span>
+            <span>Dukuh Banaran, RT 09A/RW 00<br>Banaran, Kalijambe, Sragen</span>
+          </div>
+        </div>
+        <a href="https://maps.google.com/?q=Kalijambe+Sragen+Banaran" target="_blank" class="maps-btn">
+          <span>
+            <svg viewBox="0 0 24 24" style="width:14px;height:14px;vertical-align:middle;fill:currentColor;margin-right:4px"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Lihat Lokasi
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section class="section gallery-section" data-animate>
+    <div class="section-header">
+      <div class="section-ornament">✦ ——— ✦</div>
+      <h2>Galeri Akad Nikah</h2>
+      <div class="section-ornament">✦ ——— ✦</div>
+      <p class="section-sub">Momen indah yang abadi ✨</p>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item"><img src="gallery1.jpg" alt="Galeri 1" onerror="this.parentElement.classList.add('empty-gallery');this.style.display='none'"><div class="gallery-overlay"><span>🌸</span></div></div>
+      <div class="gallery-item"><img src="gallery2.jpg" alt="Galeri 2" onerror="this.parentElement.classList.add('empty-gallery');this.style.display='none'"><div class="gallery-overlay"><span>💍</span></div></div>
+      <div class="gallery-item"><img src="gallery3.jpg" alt="Galeri 3" onerror="this.parentElement.classList.add('empty-gallery');this.style.display='none'"><div class="gallery-overlay"><span>❤</span></div></div>
+      <div class="gallery-item"><img src="gallery4.jpg" alt="Galeri 4" onerror="this.parentElement.classList.add('empty-gallery');this.style.display='none'"><div class="gallery-overlay"><span>🌹</span></div></div>
+      <div class="gallery-item"><img src="gallery5.jpg" alt="Galeri 5" onerror="this.parentElement.classList.add('empty-gallery');this.style.display='none'"><div class="gallery-overlay"><span>✨</span></div></div>
+      <div class="gallery-item"><img src="gallery6.jpg" alt="Galeri 6" onerror="this.parentElement.classList.add('empty-gallery');this.style.display='none'"><div class="gallery-overlay"><span>💐</span></div></div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-overlay" id="lightboxOverlay"></div>
+      <div class="lightbox-content">
+        <button class="lb-close" id="lbClose">✕</button>
+        <button class="lb-prev" id="lbPrev">‹</button>
+        <img src="" alt="" id="lbImage">
+        <button class="lb-next" id="lbNext">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BUKU TAMU REALTIME ── -->
+  <section class="section guestbook-section" data-animate>
+    <div class="section-header">
+      <div class="section-ornament">✦ ——— ✦</div>
+      <h2>Buku Tamu & Ucapan</h2>
+      <div class="section-ornament">✦ ——— ✦</div>
+      <p class="section-sub">Sampaikan doa dan ucapanmu 💌</p>
+    </div>
+
+    <div class="guestbook-wrap">
+      <form class="guestbook-form" id="guestbookForm">
+        <div class="form-title">✍️ Tulis Ucapan</div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nama Lengkap</label>
+            <input type="text" id="gbName" placeholder="Nama kamu..." required maxlength="60">
+          </div>
+          <div class="form-group">
+            <label>Kehadiran</label>
+            <select id="gbAttend">
+              <option value="hadir">✓ Hadir 🎉</option>
+              <option value="tidak">✗ Tidak Hadir 😢</option>
+              <option value="ragu">? Masih Ragu</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Ucapan & Doa</label>
+          <textarea id="gbMessage" placeholder="Tuliskan doa dan ucapanmu untuk Mico & Meita..." rows="4" required maxlength="300"></textarea>
+          <div class="char-counter" id="charCounter">0/300</div>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <span>Kirim Ucapan</span>
+          <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </form>
+
+      <!-- Messages area -->
+      <div>
+        <div class="messages-header">
+          <span>💬 Ucapan Tamu</span>
+          <div class="realtime-badge">
+            <div class="realtime-dot"></div>
+            <span>Live Realtime</span>
+          </div>
+        </div>
+        <div class="messages-list" id="messagesList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── AMPLOP DIGITAL ── -->
+  <section class="section donate-section" data-animate>
+    <div class="donate-bg"></div>
+    <div class="donate-content">
+      <div class="section-header light">
+        <div class="section-ornament">✦ ——— ✦</div>
+        <h2>Amplop Digital</h2>
+        <div class="section-ornament">✦ ——— ✦</div>
+        <p class="section-sub light">Bagi yang ingin memberikan hadiah pernikahan melalui transfer 💳</p>
+      </div>
+
+      <div class="bank-cards">
+        <div class="bank-card" data-animate-up>
+          <div class="bank-logo">🏦</div>
+          <div class="bank-name">Bank BRI</div>
+          <div class="bank-account-label">Nomor Rekening</div>
+          <div class="bank-account" id="rekening-number">1234-5678-9012-3456</div>
+          <div class="bank-holder" id="rekening-name">Meita Indah Syahputri</div>
+
+          <button class="copy-btn" onclick="copyRek()">
+            <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+            Salin Nomor Rekening
+          </button>
+
+          <!-- Admin edit -->
+          <div id="adminRekSection" style="display:none">
+            <div class="admin-form">
+              <input type="text" id="inputRekNo" placeholder="Nomor Rekening Baru">
+              <input type="text" id="inputRekName" placeholder="Nama Pemilik Rekening">
+              <button onclick="saveRek()" class="save-admin-btn">💾 Simpan</button>
+              <button onclick="hideAdminRek()" class="cancel-admin-btn">Batal</button>
+            </div>
+          </div>
+          <button class="admin-toggle-btn" onclick="toggleAdminRek()">⚙️ Edit Rekening (Admin)</button>
+        </div>
+      </div>
+
+      <div class="donate-note">
+        <p>💝 Doa restu Anda adalah hadiah terindah bagi kami</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PENUTUP ── -->
+  <section class="section closing-section" data-animate>
+    <div class="closing-bg"></div>
+    <div class="closing-content">
+      <div class="closing-flower">🌸</div>
+      <div class="closing-names">
+        <span class="closing-groom">Mico</span>
+        <span class="closing-amp">&</span>
+        <span class="closing-bride">Meita</span>
+      </div>
+      <p class="closing-text">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami dalam mengarungi bahtera rumah tangga.</p>
+      <div class="closing-quote">
+        <p>Kami yang berbahagia,</p>
+        <p class="closing-signature">Mico Mahendra Hadinata, S.Pd<br>&amp;<br>Meita Indah Syahputri, S.Pd</p>
+      </div>
+      <div class="closing-ornament">✦ ——— ❤ ——— ✦</div>
+    </div>
+
+    <button class="music-btn" id="musicBtn" title="Putar Musik">🎵</button>
+    <audio id="bgMusic" loop>
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <footer class="footer">
+    <p>Made with ❤ &amp; ✨ for Mico &amp; Meita — 2026</p>
+  </footer>
+
+</div><!-- /main-content -->
+
+<script src="script.js"></script>
+</body>
+</html>
