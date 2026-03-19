@@ -675,4 +675,3 @@ input,select,textarea{-webkit-appearance:none;appearance:none;}
   overflow:hidden;text-overflow:ellipsis;
 }
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
-
